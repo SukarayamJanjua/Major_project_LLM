@@ -1,6 +1,6 @@
 # **SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models**
 
-Shyam Sundar Kannan, Vishnunandan L. N. Venkatesh, and Byung-Cheol Min. 
+Shriram, Aashan, Abhishank, Sukarayam, Aviral 
 
 Submitted to IEEE International Conference on Robotics and Automation (ICRA ), 2024
 
