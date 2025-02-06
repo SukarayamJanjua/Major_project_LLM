@@ -1,12 +1,14 @@
-# **SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models**
+# **SMART-LLM: Cognitive Bot using Large Language Models**
 
 Shriram, Aashan, Abhishank, Sukarayam, Aviral 
 
-Submitted to IEEE International Conference on Robotics and Automation (ICRA ), 2024
+Major project under supervision of Dr. Ravi Verma, NITJ
 
-[Project Page](https://sites.google.com/view/smart-llm/) | [arXiv](https://arxiv.org/abs/2309.10062) | [Video](https://www.youtube.com/watch?v=mssTPl7ifyI)
 
-**Abstract:** In this work, we introduce SMART-LLM, an innovative framework designed for embodied multi-robot task planning. SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models (LLMs), harnesses the power of LLMs to convert high-level task instructions provided as input into a multi-robot task plan. It accomplishes this by executing a series of stages, including task decomposition, coalition formation, and task allocation, all guided by programmatic LLM prompts within the few-shot prompting paradigm. We create a benchmark dataset designed for validating the multi-robot task planning problem, encompassing four distinct categories of high-level instructions that vary in task complexity. Our evaluation experiments span both simulation and real-world scenarios, demonstrating that the proposed model can achieve promising results for generating multi-robot task plans.
+**Abstract:** Multi-robot systems are emerging in a wide variety of applications such as household automation and search-and-rescue missions. But the complexities of task allocation in such heterogeneous systems really challenge the whole enterprise. 
+This project proposes a novel framework for using Large Language Models (LLMs) to optimize multi-robot task planning. It converts natural language instructions into structured task plans for robots.
+It uses Large Language Models (LLMs) like GPT-4 to plan and allocate tasks.
+
 
 ## Setup
 Create a conda environment (or virtualenv):
@@ -52,13 +54,4 @@ The file name corresponds to the AI2THOR floor plans where the task will be exec
 Refer to ```resources\robots.py``` for the list of robots used in the final test and the skills possessed by each robot. 
 
 
-## Citation
-If you find this work useful for your research, please consider citing:
-```
-@article{kannan2023smart,
-    title={SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models},
-  	author={Kannan, Shyam Sundar and Venkatesh, Vishnunandan LN and Min, Byung-Cheol},
-  	journal={arXiv preprint arXiv:2309.10062},
- 	year={2023}
-}
-```
+
