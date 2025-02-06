@@ -1,4 +1,4 @@
-# **SMART-LLM: Cognitive Bot using Large Language Models**
+# **Cognitive Bot using Large Language Models**
 
 Shriram, Aashan, Abhishank, Sukarayam, Aviral 
 
